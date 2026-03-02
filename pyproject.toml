@@ -1,0 +1,10 @@
+[project]
+name = "zotero-notebooklm-csvtopdfs"
+version = "0.1.0"
+description = "Download PDFs from Zotero exported CSV"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=2.2.0",
+    "requests>=2.32.0",
+]
